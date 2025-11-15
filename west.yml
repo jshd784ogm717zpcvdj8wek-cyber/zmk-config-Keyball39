@@ -1,0 +1,12 @@
+# west.yml（リポジトリ直下）
+manifest:
+  remotes:
+    - name: zmkfork
+      url-base: https://github.com/petejohanson
+  projects:
+    - name: zmk
+      remote: zmkfork
+      revision: feat/pointers-move-scroll   # ←ここが肝
+      import: app/west.yml
+  self:
+    path: config

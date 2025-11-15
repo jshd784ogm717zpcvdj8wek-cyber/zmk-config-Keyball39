@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: pmw3610
     
-      url-base: https://github.com/<いま設定してある所有者>
+      url-base: https://github.com/<jshd784ogm717zpcvdj8wek-cyber>
 
   projects:
     - name: zmk

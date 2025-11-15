@@ -1,4 +1,3 @@
-# west.yml（リポジトリ直下）
 manifest:
   remotes:
     - name: zmkfork
@@ -6,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfork
-      revision: feat/pointers-move-scroll   # ←ここが肝
+      revision: feat/pointers-move-scroll
       import: app/west.yml
   self:
     path: config
